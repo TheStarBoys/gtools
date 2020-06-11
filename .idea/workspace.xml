@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6c4523e-ffd3-4ddb-843d-279fd34441d7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gtools.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crypto/generatePersonalPwd.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crypto/generatePersonalPwd_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +12,22 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="generatePersonalPwd.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/crypto/generatePersonalPwd.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,6 +62,8 @@
         <option value="$PROJECT_DIR$/timer/timer/timerWithLock/timerWithLock_test.go" />
         <option value="$PROJECT_DIR$/timer/timestamp.go" />
         <option value="$PROJECT_DIR$/time/timestamp.go" />
+        <option value="$PROJECT_DIR$/crypto/base58_test.go" />
+        <option value="$PROJECT_DIR$/crypto/base58.go" />
       </list>
     </option>
   </component>
@@ -106,6 +117,8 @@
       <recent name="D:\Development\Go\src\github.com\TheStarBoys\gtools\timeHelper\timer\timerWithLock" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Development\Go\src\github.com\TheStarBoys\gtools\crypto" />
+      <recent name="D:\Development\Go\src\github.com\TheStarBoys\gtools" />
       <recent name="D:\Development\Go\src\github.com\TheStarBoys\gtools\container" />
       <recent name="D:\Development\Go\src\github.com\TheStarBoys\gtools\timeHelper" />
     </key>
@@ -122,7 +135,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Test.TestTimerManager in github.com/TheStarBoys/gtools/timeHelper/timer/timerWithLock">
+  <component name="RunManager" selected="Go Test.TestStringMatching in github.com/TheStarBoys/gtools/strings/stringMatching">
+    <configuration name="TestBase58 in github.com/TheStarBoys/gtools/crypto" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gtools" />
+      <working_directory value="$PROJECT_DIR$/crypto" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/TheStarBoys/gtools/crypto" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestBase58$" />
+    </configuration>
     <configuration name="TestBrowser in github.com/TheStarBoys/gtools/container/stack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gtools" />
       <working_directory value="$PROJECT_DIR$/container/stack" />
@@ -134,28 +158,6 @@
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestBrowser$" />
     </configuration>
-    <configuration name="TestLinkedListStack in github.com/TheStarBoys/gtools/container/stack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gtools" />
-      <working_directory value="$PROJECT_DIR$/container/stack" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/TheStarBoys/gtools/container/stack" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestLinkedListStack$" />
-    </configuration>
-    <configuration name="TestSkipList in github.com/TheStarBoys/gtools/container/skipList" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="gtools" />
-      <working_directory value="$PROJECT_DIR$/container/skipList" />
-      <go_parameters value="-i" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/TheStarBoys/gtools/container/skipList" />
-      <directory value="$PROJECT_DIR$/" />
-      <filePath value="$PROJECT_DIR$/" />
-      <pattern value="^TestSkipList$" />
-    </configuration>
     <configuration name="TestSliceStack in github.com/TheStarBoys/gtools/container/stack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gtools" />
       <working_directory value="$PROJECT_DIR$/container/stack" />
@@ -166,6 +168,17 @@
       <directory value="$PROJECT_DIR$/" />
       <filePath value="$PROJECT_DIR$/" />
       <pattern value="^TestSliceStack$" />
+    </configuration>
+    <configuration name="TestStringMatching in github.com/TheStarBoys/gtools/strings/stringMatching" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="gtools" />
+      <working_directory value="$PROJECT_DIR$/strings/stringMatching" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/TheStarBoys/gtools/strings/stringMatching" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestStringMatching$" />
     </configuration>
     <configuration name="TestTimerManager in github.com/TheStarBoys/gtools/timeHelper/timer/timerWithLock" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="gtools" />
@@ -179,19 +192,19 @@
       <pattern value="^TestTimerManager$" />
     </configuration>
     <list>
-      <item itemvalue="Go Test.TestSkipList in github.com/TheStarBoys/gtools/container/skipList" />
-      <item itemvalue="Go Test.TestLinkedListStack in github.com/TheStarBoys/gtools/container/stack" />
       <item itemvalue="Go Test.TestBrowser in github.com/TheStarBoys/gtools/container/stack" />
       <item itemvalue="Go Test.TestSliceStack in github.com/TheStarBoys/gtools/container/stack" />
       <item itemvalue="Go Test.TestTimerManager in github.com/TheStarBoys/gtools/timeHelper/timer/timerWithLock" />
+      <item itemvalue="Go Test.TestBase58 in github.com/TheStarBoys/gtools/crypto" />
+      <item itemvalue="Go Test.TestStringMatching in github.com/TheStarBoys/gtools/strings/stringMatching" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestStringMatching in github.com/TheStarBoys/gtools/strings/stringMatching" />
+        <item itemvalue="Go Test.TestBase58 in github.com/TheStarBoys/gtools/crypto" />
         <item itemvalue="Go Test.TestTimerManager in github.com/TheStarBoys/gtools/timeHelper/timer/timerWithLock" />
         <item itemvalue="Go Test.TestSliceStack in github.com/TheStarBoys/gtools/container/stack" />
         <item itemvalue="Go Test.TestBrowser in github.com/TheStarBoys/gtools/container/stack" />
-        <item itemvalue="Go Test.TestLinkedListStack in github.com/TheStarBoys/gtools/container/stack" />
-        <item itemvalue="Go Test.TestSkipList in github.com/TheStarBoys/gtools/container/skipList" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +242,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15281501" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -239,7 +253,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34664765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32952926" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.70328104" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -257,27 +271,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/time/timestamp.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crypto/generatePersonalPwd.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crypto/generatePersonalPwd_test.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/timeHelper/timer.go" />
     <entry file="file://$PROJECT_DIR$/time/timestamp.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -383,13 +376,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crypto/generatePersonalPwd.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
     </entry>
@@ -549,6 +535,33 @@
           <folding>
             <element signature="e#15#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto/base58.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1045">
+          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto/base58_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#14#107#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crypto/generatePersonalPwd.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
         </state>
       </provider>
     </entry>
